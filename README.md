@@ -1,4 +1,4 @@
-# Amazon Mobile Phones - Playwright Automation
+# Amazon Mobile Phones Search - Playwright Automation
 
 ## Overview
 
@@ -26,11 +26,11 @@ This project automates the given Amazon UI test scenario using Playwright, JavaS
     amazon-playwright-assignment/
     │
     ├── webPages/
-    │   ├── AmazonHomePage.js
-    │   └── SearchResultsPage.js
+    │   ├── amazonHomePage.js
+    │   └── searchResultPage.js
     │
     ├── tests/
-    │   └── amazon-mobile-phones.spec.js
+    │   └── amazonSearchTest.spec.js
     │
     ├── .gitignore
     ├── package.json
@@ -62,8 +62,7 @@ Handles:
 Clone the repository and install dependencies:
 
 ```bash
-git clone <REPOSITORY_URL>
-cd amazon-playwright-assignment
+cd varvesquare-amazon-playwright-assignment
 npm install
 npx playwright install
 ```
@@ -73,13 +72,13 @@ npx playwright install
 ### Headed Mode
 
 ```bash
-npx playwright test tests/amazon-mobile-phones.spec.js --headed
+npx playwright test tests/amazonSearchTest.spec.js --headed
 ```
 
 ### Headless Mode
 
 ```bash
-npx playwright test tests/amazon-mobile-phones.spec.js
+npx playwright test tests/amazonSearchTest.spec.js
 ```
 
 ## Notes
