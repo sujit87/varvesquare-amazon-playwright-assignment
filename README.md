@@ -23,6 +23,7 @@ This project automates the given Amazon UI test scenario using Playwright, JavaS
 
 ## Project Structure
 
+```text
 amazon-playwright-assignment/
 │
 ├── webPages/
