@@ -23,21 +23,20 @@ This project automates the given Amazon UI test scenario using Playwright, JavaS
 
 ## Project Structure
 
-```text
-amazon-playwright-assignment/
-│
-├── webPages/
-│   ├── AmazonHomePage.js
-│   └── SearchResultsPage.js
-│
-├── tests/
-│   └── amazon-mobile-phones.spec.js
-│
-├── .gitignore
-├── package.json
-├── package-lock.json
-├── playwright.config.js
-└── README.md
+    amazon-playwright-assignment/
+    │
+    ├── webPages/
+    │   ├── AmazonHomePage.js
+    │   └── SearchResultsPage.js
+    │
+    ├── tests/
+    │   └── amazon-mobile-phones.spec.js
+    │
+    ├── .gitignore
+    ├── package.json
+    ├── package-lock.json
+    ├── playwright.config.js
+    └── README.md
 
 ## POM
 
@@ -62,20 +61,26 @@ Handles:
 
 Clone the repository and install dependencies:
 
-    git clone <REPOSITORY_URL>
-    cd amazon-playwright-assignment
-    npm install
-    npx playwright install
+```bash
+git clone <REPOSITORY_URL>
+cd amazon-playwright-assignment
+npm install
+npx playwright install
+```
 
 ## Run the Test
 
-Run in headed mode:
+### Headed Mode
 
-    npx playwright test tests/amazon-mobile-phones.spec.js --headed
+```bash
+npx playwright test tests/amazon-mobile-phones.spec.js --headed
+```
 
-Run in headless mode:
+### Headless Mode
 
-    npx playwright test tests/amazon-mobile-phones.spec.js
+```bash
+npx playwright test tests/amazon-mobile-phones.spec.js
+```
 
 ## Notes
 
